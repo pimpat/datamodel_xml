@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F44BB1C1B85AEA000C82272 /* hiorient.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB1B1B85AEA000C82272 /* hiorient.o */; };
+		9F44BB1F1B85AEE300C82272 /* reqmsg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB1D1B85AEE300C82272 /* reqmsg.o */; };
+		9F44BB201B85AEE300C82272 /* swap_endian.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB1E1B85AEE300C82272 /* swap_endian.o */; };
+		9F44BB261B85F31000C82272 /* libjansson.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB251B85F31000C82272 /* libjansson.4.dylib */; };
+		9F44BB291B85F32300C82272 /* libtransport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB271B85F32300C82272 /* libtransport.a */; };
+		9F44BB2A1B85F32300C82272 /* libzmq.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB281B85F32300C82272 /* libzmq.3.dylib */; };
+		9F978A621B833F4B005430F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F978A611B833F4B005430F9 /* main.cpp */; settings = {COMPILER_FLAGS = "-w -L/usr/local/lib/ -ltransport -ljansson -lzmq -I/usr/local/include -I/Users/pimpat"; }; };
+		9F978A6B1B83403E005430F9 /* dmp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F978A671B83403E005430F9 /* dmp.o */; };
+		9F978A6C1B83403E005430F9 /* ezxml.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F978A681B83403E005430F9 /* ezxml.o */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F9B71C71B688FCA00783EF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F44BB161B85AE1E00C82272 /* hiorient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hiorient.h; path = "../../orientdb-binary-new/src/hiorient.h"; sourceTree = "<group>"; };
+		9F44BB1B1B85AEA000C82272 /* hiorient.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = hiorient.o; path = "../../orientdb-binary-new/build/bin/hiorient.o"; sourceTree = "<group>"; };
+		9F44BB1D1B85AEE300C82272 /* reqmsg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = reqmsg.o; path = "../../orientdb-binary-new/build/bin/reqmsg.o"; sourceTree = "<group>"; };
+		9F44BB1E1B85AEE300C82272 /* swap_endian.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = swap_endian.o; path = "../../orientdb-binary-new/build/bin/swap_endian.o"; sourceTree = "<group>"; };
+		9F44BB251B85F31000C82272 /* libjansson.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjansson.4.dylib; path = ../Chat_Group/libjansson.4.dylib; sourceTree = "<group>"; };
+		9F44BB271B85F32300C82272 /* libtransport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtransport.a; path = ../Chat_Group/libtransport.a; sourceTree = "<group>"; };
+		9F44BB281B85F32300C82272 /* libzmq.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzmq.3.dylib; path = ../Chat_Group/libzmq.3.dylib; sourceTree = "<group>"; };
+		9F978A611B833F4B005430F9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../orientdb-binary-new/src/main.cpp"; sourceTree = "<group>"; };
+		9F978A631B833F91005430F9 /* diff_match_patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diff_match_patch.h; path = "../../orientdb-binary-new/dep/include/diff_match_patch.h"; sourceTree = "<group>"; };
+		9F978A641B833F91005430F9 /* ezxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ezxml.h; path = "../../orientdb-binary-new/dep/include/ezxml.h"; sourceTree = "<group>"; };
+		9F978A671B83403E005430F9 /* dmp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dmp.o; path = "../../orientdb-binary-new/dep/lib/dmp.o"; sourceTree = "<group>"; };
+		9F978A681B83403E005430F9 /* ezxml.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = ezxml.o; path = "../../orientdb-binary-new/dep/lib/ezxml.o"; sourceTree = "<group>"; };
+		9F978A6F1B8455B7005430F9 /* reqmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reqmsg.h; path = "../../orientdb-binary-new/src/reqmsg.h"; sourceTree = "<group>"; };
+		9F978A701B8455B7005430F9 /* swap_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = swap_endian.h; path = "../../orientdb-binary-new/src/swap_endian.h"; sourceTree = "<group>"; };
+		9F9B71C91B688FCA00783EF6 /* datamodel_xml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = datamodel_xml; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9B71C61B688FCA00783EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44BB291B85F32300C82272 /* libtransport.a in Frameworks */,
+				9F44BB2A1B85F32300C82272 /* libzmq.3.dylib in Frameworks */,
+				9F44BB261B85F31000C82272 /* libjansson.4.dylib in Frameworks */,
+				9F44BB1F1B85AEE300C82272 /* reqmsg.o in Frameworks */,
+				9F978A6C1B83403E005430F9 /* ezxml.o in Frameworks */,
+				9F44BB1C1B85AEA000C82272 /* hiorient.o in Frameworks */,
+				9F44BB201B85AEE300C82272 /* swap_endian.o in Frameworks */,
+				9F978A6B1B83403E005430F9 /* dmp.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9B71C01B688FCA00783EF6 = {
+			isa = PBXGroup;
+			children = (
+				9F44BB271B85F32300C82272 /* libtransport.a */,
+				9F44BB281B85F32300C82272 /* libzmq.3.dylib */,
+				9F44BB251B85F31000C82272 /* libjansson.4.dylib */,
+				9F9B71CB1B688FCA00783EF6 /* datamodel_xml */,
+				9F9B71CA1B688FCA00783EF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9B71CA1B688FCA00783EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B71C91B688FCA00783EF6 /* datamodel_xml */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9B71CB1B688FCA00783EF6 /* datamodel_xml */ = {
+			isa = PBXGroup;
+			children = (
+				9F978A611B833F4B005430F9 /* main.cpp */,
+				9F978A631B833F91005430F9 /* diff_match_patch.h */,
+				9F978A641B833F91005430F9 /* ezxml.h */,
+				9F978A6F1B8455B7005430F9 /* reqmsg.h */,
+				9F978A701B8455B7005430F9 /* swap_endian.h */,
+				9F44BB161B85AE1E00C82272 /* hiorient.h */,
+				9F978A671B83403E005430F9 /* dmp.o */,
+				9F978A681B83403E005430F9 /* ezxml.o */,
+				9F44BB1D1B85AEE300C82272 /* reqmsg.o */,
+				9F44BB1E1B85AEE300C82272 /* swap_endian.o */,
+				9F44BB1B1B85AEA000C82272 /* hiorient.o */,
+			);
+			path = datamodel_xml;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9B71C81B688FCA00783EF6 /* datamodel_xml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9B71D01B688FCA00783EF6 /* Build configuration list for PBXNativeTarget "datamodel_xml" */;
+			buildPhases = (
+				9F9B71C51B688FCA00783EF6 /* Sources */,
+				9F9B71C61B688FCA00783EF6 /* Frameworks */,
+				9F9B71C71B688FCA00783EF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datamodel_xml;
+			productName = datamodel_xml;
+			productReference = 9F9B71C91B688FCA00783EF6 /* datamodel_xml */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9B71C11B688FCA00783EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Pimpat;
+				TargetAttributes = {
+					9F9B71C81B688FCA00783EF6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F9B71C41B688FCA00783EF6 /* Build configuration list for PBXProject "datamodel_xml" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F9B71C01B688FCA00783EF6;
+			productRefGroup = 9F9B71CA1B688FCA00783EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9B71C81B688FCA00783EF6 /* datamodel_xml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9B71C51B688FCA00783EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F978A621B833F4B005430F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F9B71CE1B688FCA00783EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9F9B71CF1B688FCA00783EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9F9B71D11B688FCA00783EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pimpat/Desktop/Transport2/TransportLayer,
+					/Users/pimpat/Desktop/ordb_web/orientdb,
+					/Users/pimpat/Desktop/Chat_Group,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F9B71D21B688FCA00783EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pimpat/Desktop/Transport2/TransportLayer,
+					/Users/pimpat/Desktop/ordb_web/orientdb,
+					/Users/pimpat/Desktop/Chat_Group,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9B71C41B688FCA00783EF6 /* Build configuration list for PBXProject "datamodel_xml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9B71CE1B688FCA00783EF6 /* Debug */,
+				9F9B71CF1B688FCA00783EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9B71D01B688FCA00783EF6 /* Build configuration list for PBXNativeTarget "datamodel_xml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9B71D11B688FCA00783EF6 /* Debug */,
+				9F9B71D21B688FCA00783EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9B71C11B688FCA00783EF6 /* Project object */;
+}
