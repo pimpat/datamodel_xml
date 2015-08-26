@@ -1,0 +1,35 @@
+22A7C8CF4AD24FA08B6A81D48897117A:CatA:1:ChatA:10:5:1:T:d-e-f-a-u-l-t:NULL:54:1:@@ -37,18 +37,18 @@
+ 1%22%3Ewww.a
+-aa
++bc
+ .com%3C/li
+:NULL:NULL:2:T:d-e-f-a-u-l-t:NULL:36:1:@@ -43,11 +43,8 @@
+ .aaa
+-sss
+ .com
+:NULL:NULL:3:T:d-e-f-a-u-l-t:NULL:46:1:@@ -40,12 +40,14 @@
+ www.
+-ffff
++aaasss
+ .com
+:NULL:NULL:4:T:d-e-f-a-u-l-t:NULL:90:1:@@ -40,14 +40,12 @@
+ www.
+-google
++ffff
+ .com
+@@ -72,13 +72,11 @@
+ www.
+-yahoo
++xyz
+ .com
+:NULL:NULL:5:F:d-e-f-a-u-l-t:NULL:90:1:@@ -40,12 +40,14 @@
+ www.
+-ffff
++google
+ .com
+@@ -74,11 +74,13 @@
+ www.
+-xyz
++yahoo
+ .com
+:NULL:121:1:<root><attachmentFTOLinks><link id="1">www.google.com</link><link id="2">www.yahoo.com</link></attachmentFTOLinks></root>

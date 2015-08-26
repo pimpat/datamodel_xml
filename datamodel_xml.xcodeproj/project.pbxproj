@@ -13,6 +13,7 @@
 		9F44BB261B85F31000C82272 /* libjansson.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB251B85F31000C82272 /* libjansson.4.dylib */; };
 		9F44BB291B85F32300C82272 /* libtransport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB271B85F32300C82272 /* libtransport.a */; };
 		9F44BB2A1B85F32300C82272 /* libzmq.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44BB281B85F32300C82272 /* libzmq.3.dylib */; };
+		9F44BB341B8B898200C82272 /* datamodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BB2F1B8AE9FF00C82272 /* datamodel.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
 		9F978A621B833F4B005430F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F978A611B833F4B005430F9 /* main.cpp */; settings = {COMPILER_FLAGS = "-w -L/usr/local/lib/ -ltransport -ljansson -lzmq -I/usr/local/include -I/Users/pimpat"; }; };
 		9F978A6B1B83403E005430F9 /* dmp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F978A671B83403E005430F9 /* dmp.o */; };
 		9F978A6C1B83403E005430F9 /* ezxml.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F978A681B83403E005430F9 /* ezxml.o */; };
@@ -38,6 +39,8 @@
 		9F44BB251B85F31000C82272 /* libjansson.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjansson.4.dylib; path = ../Chat_Group/libjansson.4.dylib; sourceTree = "<group>"; };
 		9F44BB271B85F32300C82272 /* libtransport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtransport.a; path = ../Chat_Group/libtransport.a; sourceTree = "<group>"; };
 		9F44BB281B85F32300C82272 /* libzmq.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzmq.3.dylib; path = ../Chat_Group/libzmq.3.dylib; sourceTree = "<group>"; };
+		9F44BB2F1B8AE9FF00C82272 /* datamodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datamodel.cpp; sourceTree = "<group>"; };
+		9F44BB301B8AE9FF00C82272 /* datamodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datamodel.h; sourceTree = "<group>"; };
 		9F978A611B833F4B005430F9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../orientdb-binary-new/src/main.cpp"; sourceTree = "<group>"; };
 		9F978A631B833F91005430F9 /* diff_match_patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diff_match_patch.h; path = "../../orientdb-binary-new/dep/include/diff_match_patch.h"; sourceTree = "<group>"; };
 		9F978A641B833F91005430F9 /* ezxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ezxml.h; path = "../../orientdb-binary-new/dep/include/ezxml.h"; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				9F44BB1D1B85AEE300C82272 /* reqmsg.o */,
 				9F44BB1E1B85AEE300C82272 /* swap_endian.o */,
 				9F44BB1B1B85AEA000C82272 /* hiorient.o */,
+				9F44BB2F1B8AE9FF00C82272 /* datamodel.cpp */,
+				9F44BB301B8AE9FF00C82272 /* datamodel.h */,
 			);
 			path = datamodel_xml;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F978A621B833F4B005430F9 /* main.cpp in Sources */,
+				9F44BB341B8B898200C82272 /* datamodel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +252,8 @@
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/pimpat/Desktop/Transport2/TransportLayer,
-					/Users/pimpat/Desktop/ordb_web/orientdb,
-					/Users/pimpat/Desktop/Chat_Group,
+					/Users/Pimpat/Desktop/Transport2/TransportLayer,
+					/Users/Pimpat/Desktop/Chat_Group,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,9 +264,8 @@
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/pimpat/Desktop/Transport2/TransportLayer,
-					/Users/pimpat/Desktop/ordb_web/orientdb,
-					/Users/pimpat/Desktop/Chat_Group,
+					/Users/Pimpat/Desktop/Transport2/TransportLayer,
+					/Users/Pimpat/Desktop/Chat_Group,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
